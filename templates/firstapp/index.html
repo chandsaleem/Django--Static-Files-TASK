@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <div class="container mt-3">
+        <!-- <h2>Media Object</h2>
+        <p>Create a media object with the .media and .media-body classes:</p> -->
+        <div class="media border p-3">
+          <img src= "{% static "images/mine.png" %}" alt="Chand Saleem png" style="width: 200px;">
+          <div class="media-body m-5">
+            <h3 class="text-white"> &nbsp; Chand Saleem <small><i>A Programmer</i></small></h3>
+            <p class="text-white"> &nbsp; &nbsp;I love to Program. I am fond of good music, yummy food and adventure.</p>      
+          </div>
+        </div>
+    </div>
+
+{% endblock %}
